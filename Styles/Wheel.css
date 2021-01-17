@@ -1,0 +1,82 @@
+﻿.dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7,.dot8{ position:absolute; top:0; left:0; font-family:Calibri;  font-size:24px; color:#FFF; width:200px;}
+.dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7,.dot8 a{font-size:24px;}
+.sun1,.sun2,.sun21,.sun3,.sun31,.sun4,.sun41,.sun5,.sun6,.sun7,.sun8{ width:200px; height:200px;  position:absolute; animation-iteration-count:infinite; animation-timing-function:linear;  animation-name:orbit2; animation-duration:6s; -webkit-animation-iteration-count:infinite; -webkit-animation-timing-function:linear;  -webkit-animation-name:orbit2; -webkit-animation-duration:6s;top:0px; left:-9999px;}
+.sun1{}
+.sun2{animation-delay: 0.7s; -webkit-animation-delay: 1s;}
+.sun21{animation-delay: 1.12s; -webkit-animation-delay: 1s;}
+.sun3{animation-delay: 1.9s; -webkit-animation-delay: 2s;}
+.sun31{animation-delay: 2.5s; -webkit-animation-delay: 1s;}
+.sun4{animation-delay: 3.2s; -webkit-animation-delay: 3s;}
+.sun41{animation-delay: 3.52s; -webkit-animation-delay: 1s;}
+.sun5{animation-delay: 4.25s; -webkit-animation-delay: 4s;}
+.sun6{animation-delay: 5s; -webkit-animation-delay: 5s;}
+.sun7{animation-delay: 6.2s; -webkit-animation-delay: 6s;}
+.sun8{animation-delay: 7s; -webkit-animation-delay: 7s;}
+
+
+@keyframes orbit2 
+{
+
+    from 
+    {
+        left:1000px; margin-top:-8px;  transform:rotate(-10deg); -webkit-transform:rotate(-7deg);       
+    } 
+    to 
+    {
+        left:0px;  margin-top:-8px; transform:rotate(9deg); -webkit-transform:rotate(7deg);
+    } 
+    
+    0%   {margin-top:-20px;}
+    5%   {margin-top:}
+    10%   {}
+    15%   {}
+    20%   {}
+    25%   {}
+    30%   {}
+    35%   {}
+    40%   {}
+    45%   {}
+    50%   {margin-top:30px}
+    55%   {}
+    60%   {}
+    65%   {}
+    70%   {}   
+    75%   {}    
+    80%   {}
+    85%   {}
+    90%   {}
+    95%   {}
+    100%   {margin-top:0px; } 
+}
+
+
+@keyframes orbit  
+{
+
+    from 
+    {
+        left:0px; transform:rotate(7deg); -webkit-transform:rotate(7deg);  margin-top:30px;         
+    } 
+    to 
+    {
+        left:1100px; transform:rotate(-7deg); -webkit-transform:rotate(-7deg); margin-top:30px;
+    } 
+    
+    0%   {margin-top:38px;}
+    5%   {margin-top:47px;}
+    10%   {margin-top:55px;}
+    15%   {margin-top:60px;}
+    20%   {margin-top:65px;}
+    25%   {margin-top:68px;}
+    30%   {margin-top:72px;}
+    40%   {margin-top:75px;}
+    50%   {margin-top:75px;}
+    60%   {margin-top:72px;}
+    70%   {margin-top:65px;}    
+    80%   {margin-top:55px;}
+    85%   {margin-top:50px;}
+    90%   {margin-top:45px;}
+    95%   {margin-top:38px;}
+    100%   {margin-top:30px;}
+}
+

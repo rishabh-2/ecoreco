@@ -1,0 +1,47 @@
+﻿/*--------------This style Sheet Contains Main Media sizes Of Webside---------*/
+
+
+
+/*  -------******** big device ********---------- */
+@media screen and (min-width:1025px) and (max-width:2000px) {
+
+
+}
+/*  ----------******** End of laptop device ********-------------- */	
+@media screen and (min-width: 901px) and (max-width: 999px) 
+{
+    #ring a{color:#FFF; text-decoration:none; font-size:20px; font-weight:normal; position:absolute; top:10.5vw;}
+    #ring .ring_link1{left:50%; margin-left:-35%; transform:rotate(6deg); margin-top:-10px;}
+    #ring .ring_link2{left:50%; margin-left:-20%; transform:rotate(2deg); margin-top:4px;}
+    #ring .ring_link3{left:50%; margin-left:5%;transform:rotate(-2deg); margin-top:4px;}
+    #ring .ring_link4{left:50%; margin-left:25%; transform:rotate(-6deg); margin-top:-10px;}
+}
+/*  ------------******** Tablette device ********---------- */
+@media screen and (min-width: 651px) and (max-width: 900px) 
+{
+    #ring a{color:#FFF; text-decoration:none; font-size:2vw; font-weight:normal; position:absolute; top:10.5vw;}
+    #ring .ring_link1{left:50%; margin-left:-35%; transform:rotate(5deg); margin-top:-8px;}
+    #ring .ring_link2{left:50%; margin-left:-20%; transform:rotate(2deg); margin-top:4px;}
+    #ring .ring_link3{left:50%; margin-left:5%;transform:rotate(-2deg); margin-top:4px;}
+    #ring .ring_link4{left:50%; margin-left:25%; transform:rotate(-5deg); margin-top:-8px;}
+}
+/*----------********* End of Tablette device *********-----------*/
+
+
+/*  ----------***** Mobile device *****--------- */
+@media screen and (min-width: 451px) and (max-width: 650px)  
+{    
+    #ring a{color:#FFF; text-decoration:none; font-size:2vw; font-weight:normal; position:absolute; top:10.5vw;}
+    #ring .ring_link1{left:50%; margin-left:-35%; transform:rotate(5deg); margin-top:-2px;}
+    #ring .ring_link2{left:50%; margin-left:-20%; transform:rotate(2deg); margin-top:4px;}
+    #ring .ring_link3{left:50%; margin-left:5%;transform:rotate(-2deg); margin-top:4px;}
+    #ring .ring_link4{left:50%; margin-left:25%; transform:rotate(-5deg); margin-top:-2px;}
+}
+@media screen and (max-width: 450px)  
+{    
+    #ring a{color:#FFF; text-decoration:none; font-size:2vw; font-weight:normal; position:absolute; top:10.5vw;}
+    #ring .ring_link1{left:50%; margin-left:-35%; transform:rotate(5deg); margin-top:0px;}
+    #ring .ring_link2{left:50%; margin-left:-20%; transform:rotate(2deg); margin-top:4px;}
+    #ring .ring_link3{left:50%; margin-left:5%;transform:rotate(-2deg); margin-top:4px;}
+    #ring .ring_link4{left:50%; margin-left:25%; transform:rotate(-5deg); margin-top:0px;}
+}
